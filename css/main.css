@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #000000;
+  color: #ffffff;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
@@ -1604,7 +1604,7 @@ input::-moz-focus-inner {
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #030201;
+  color: #ffffff;
   margin-top: 0;
   margin-bottom: .4rem;
   margin-left: 4px;
@@ -2778,7 +2778,7 @@ html.no-csstransitions .hero-content {
 .s-series h2 {
   font-size: 5.2rem;
   line-height: 1.231;
-  color: #000000;
+  color: #ffffff;
   margin-top: 1.6rem;
   margin-bottom: 5.6rem;
 }
