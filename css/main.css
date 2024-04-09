@@ -147,15 +147,16 @@ a:active {
 
  h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   font-style: normal;
+  font-size: 40px;
   color: #ffffff;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   font-style: normal;
   color: #ffffff;
   font-variant-ligatures: common-ligatures;
@@ -411,6 +412,12 @@ hr {
   clear: both;
   margin: 8rem 0 9.6rem;
   height: 0;
+}
+iframe {
+  display: block; /* Removes the default iframe inline-block space */
+  width: 100%;
+  height: 100%;
+  border: none; /* Optional: removes the default iframe border */
 }
 
 /* ------------------------------------------------------------------- 
@@ -2124,8 +2131,8 @@ input::-moz-focus-inner {
 }
 
 .hero-content h1 {
-  font-weight: 700;
-  font-size: 7.6rem;
+  font-weight: 200;
+  font-size: 2.6rem;
   line-height: 1.263;
   letter-spacing: 0;
   color: #ffffff;
@@ -2390,7 +2397,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 6.4rem;
+    font-size: 2.4rem;
   }
 
   .hero-social {
@@ -2406,7 +2413,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 6rem;
+    font-size: 2rem;
   }
 
 }
@@ -2441,7 +2448,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 6.2rem;
+    font-size: 2.2rem;
   }
 
 }
@@ -2459,7 +2466,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 5.4rem;
+    font-size: 2.4rem;
   }
 
   .hero-content h1 br {
@@ -2481,7 +2488,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width:700px) {
   .hero-content h1 {
-    font-size: 4.8rem;
+    font-size: 2.8rem;
   }
 
   .hero-left-bar {
@@ -2497,7 +2504,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-content h1 {
-    font-size: 4.4rem;
+    font-size: 2.4rem;
   }
 
   .hero-left-bar,
@@ -3590,5 +3597,6 @@ html.no-csstransitions .hero-content {
   }
 
 }
+
 
 /*# sourceMappingURL=main.css.map */
