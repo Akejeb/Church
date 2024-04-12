@@ -28,6 +28,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 </head>
 
@@ -59,8 +61,8 @@
             <ul class="header-nav">
                 <li class="current"><a href="index.html" title="Home">Головна сторінка</a></li>
                 <li><a href="about.html" title="About">Розклад богослужінь</a></li>
-                <li><a href="events.html" title="Services">Events</a></li>
                 <li><a href="contact.html" title="Contact us">Контакти</a></li>	
+                <li><a href="events.html" title="Services">ПРАВОСЛАВНИЙ КАЛЕНДАР</a></li>
             </ul>
         </nav>
 
@@ -71,28 +73,23 @@
 
     <!-- hero
     ================================================== -->
-    <section class="s-hero" data-parallax="scroll" data-image-src="images/church3.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <!-- <section class="s-hero" data-parallax="scroll" data-image-src="images/church3.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center> -->
+        
+        <section class="page-header page-header--index-schedule custom-bg">
 
-        <div class="hero-left-bar"></div>
-
-        <div class="row hero-content">
-
-            <div class="column large-full hero-content__text">
-                <h1>
-                    Українська православна парафія на Заході  <br>
-                     Фінляндії на честь  <br>
-                    Апостола Андрія Первозванного
-                </h1>
-
-                <div class="hero-content__buttons">
-                    <!-- <a href="events.html" class="btn btn--stroke">Upcoming Events</a>
-                    <a href="about.html" class="btn btn--stroke">About Us</a> -->
+            <div class="gradient-overlay"></div>
+            <div class="row page-header__content">
+                <div class="column">
+                    <h2>ПАРАФІЯ НА ЧЕСТЬ ПОЧАЇВСЬКОЇ ІКОНИ БОЖОЇ МАТЕРІ </h2>  <!-- "Schedule of Services" in Ukrainian -->
                 </div>
-            </div> <!-- end hero-content__text -->
+            </div>
+        
+        </section>
 
-        </div> <!-- end hero-content -->
 
-        <ul class="hero-social">
+        <!-- end hero-content -->
+
+        <!-- <ul class="hero-social">
             <li class="hero-social__title">Follow Us</li>
             <li>
                 <a href="https://www.facebook.com" title="">Facebook</a>
@@ -103,13 +100,15 @@
             <li>
                 <a href="https://www.instagram.com/" title="">Instagram</a>
             </li>
-        </ul> <!-- end hero-social -->
+        </ul>  -->
+        <!-- end hero-social -->
 
-        <div class="hero-scroll">
+        <!-- <div class="hero-scroll">
             <a href="#about" class="scroll-link smoothscroll">
                 Scroll For More
             </a>
-        </div> <!-- end hero-scroll -->
+        </div>  -->
+        <!-- end hero-scroll -->
 
     </section> <!-- end s-hero -->
 
@@ -121,36 +120,33 @@
         <div class="row row-y-center about-content">
 
             <div class="column large-half medium-full">
-                <h3 class="subhead">Welcome to UOC Turku</h3>
-                <p class="lead">
-                abcd
-                </p>
-                <a href="about.html" class="btn btn--primary btn--about">More About UOC Turku</a>
+                
+                <img src="images/111111111111111.png"  width="500" height="300" style="border: 1px solid #ccc;">
+
             </div>
 
             <div class="column large-half medium-full">
                 <ul class="about-sched">
-                    <li>
-                        <h4>Main Church Service</h4>
+                        <h4>Регулярні Літургії звершуються в недільні та святкові дні за адресою</h4>
                         <p>
-                        Sunday - 9:00 AM | 1:00 PM | 4:30 PM <br>
                         Säkkikuja 3 Turku
                         </p>
-                    </li>
-                    <li>
-                        <h4>Kids Church</h4>
-                        <p>
-                        Sunday - 9:00 AM | 1:00 PM | 4:30 PM <br>
-                        Säkkikuja 3 Turku
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Prayer Meeting</h4>
-                        <p>
-                        Saturday - 7:00 PM <br>
-                        Säkkikuja 3 Turku
-                        </p>
-                    </li>
+                        <div id="map">
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=S%C3%A4kkikuja+3+Turku" allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <h4>Актуальні новини та світлини парафії публікуються в наших  соціальних мережах:</h4>
+                        <a href="https://t.me/yourchannel" target="_blank"><i class="fab fa-telegram icon"></i></a>
+                        <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook icon"></i></a>
+
+
+
+                    
                 </ul> <!-- end about-sched-->
             </div>
 
@@ -161,237 +157,28 @@
 
     <!-- connect
     ================================================== -->
-    <section class="s-connect">
-
-        <div class="row connect-content">
-            <div class="column large-half tab-full">
-                <h3 class="display-1">Volunteer With Us.</h3>
-                <p>
-                abcd
-                </p>
-
-                <a href="#" class="btn btn--primary h-full-width">I'm Interested</a>
-            </div>
-            <div class="column large-half tab-full">
-                <h3 class="display-1">Join a Connect Group.</h3>
-                <p>
-                abcd 
-                </p>
-
-                <a href="#" class="btn btn--primary h-full-width">Learn More</a>
-            </div>
-        </div> <!-- end connect-content  -->
-
-    </section> <!-- end s-connect -->
+     <!-- end s-connect -->
 
 
     <!-- events
     ================================================== -->
-    <section class="s-events">
-
-        <div class="row events-header">
-            <div class="column">
-                <h2 class="subhead">Upcoming Events.</h2>
-            </div>
-        </div> <!-- end event-header -->
-
-        <div class="row block-large-1-2 block-900-full events-list">
-
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="#0" title="">abcd.</a>
-                </h3>
-                <p>
-                abcd
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Saturday, September 28, 2019</li>
-                    <li class="events-list__meta-time">8:00AM - 5:30PM</li>
-                    <li class="events-list__meta-location">Säkkikuja 3 Turku</li>
-                </ul>
-            </div> <!-- end events-list__item -->
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="#0" title="">Prayer Meeting.</a>
-                </h3>
-                <p>
-                abcd
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Saturday, July 27, 2019</li>
-                    <li class="events-list__meta-time">6:00PM - 8:30PM</li>
-                    <li class="events-list__meta-location"> Säkkikuja 3 Turku</li>
-                </ul>
-            </div> <!-- end events-list__item -->
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="#0" title="">Youth Convergence.</a>
-                </h3>
-                <p>
-                abcd
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Friday, July 26, 2019</li>
-                    <li class="events-list__meta-time">5:00PM - 6:30PM</li>
-                    <li class="events-list__meta-location"> Säkkikuja 3 Turku</li>
-                </ul>
-            </div> <!-- end events-list__item -->
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="#0" title="">Leadership Conference.</a>
-                </h3>
-                <p>
-                abcd
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Sunday, July 28, 2019</li>
-                    <li class="events-list__meta-time">2:00PM - 5:30PM</li>
-                    <li class="events-list__meta-location"> Säkkikuja 3 Turku</li>
-                </ul>
-            </div> <!-- end events-list__item -->
-
-        </div> <!-- end events-list -->
-
-    </section> <!-- end s-events -->
+   
+                    <!-- end s-events -->
 
 
     <!-- series
     ================================================== -->
-    <section class="s-series">
-
-        <div class="series-img" style="background-image: url('images/church2.jpg');"></div>
-
-        <div class="row row-y-center series-content">
-
-            <div class="column large-half medium-full">
-                <h3 class="subhead">Current Series</h3>
-                <h2>Shape Your Life with the Words of Life.</h2>
-                <p>
-                abcd
-                </p>
-            </div> <!-- end column -->
-
-            <div class="column large-half medium-full">
-                <div class="series-content__buttons">
-                    <a href="" class="btn btn--large h-full-width">Watch the Video</a>
-                    <a href="" class="btn btn--large h-full-width">Listen To the Message</a>
-                </div>
-
-                <div class="series-content__subscribe">
-                    <p>
-                    Never missed a message. Subscribe to our YouTube and Podcast channels.
-                    </p>
-                    
-                    <ul class="series-content__subscribe-links">
-                        <li class="ss-apple-podcast"><a href="#0">Apple Podcast</a></li>
-                        <li class="ss-spotify"><a href="#0">Spotify</a></li>
-                        <li class="ss-soundcloud"><a href="#0">SoundCloud</a></li>
-                        <li class="ss-youtube"><a href="#0">Youtube</a></li>
-                    </ul>
-                </div>
-            </div> <!-- end column -->
-            
-        </div> <!-- series-content -->
-
-    </section> <!-- end s-series -->
+    
 
 
     <!-- Social
     ================================================== -->
-    <section class="s-social">
-            
-        <div class="row social-content">
-            <div class="column">
-                <ul class="social-list">
-                    <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--facebook"></span>
-                            <span class="social-list__text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--twitter"></span>
-                            <span class="social-list__text">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--instagram"></span>
-                            <span class="social-list__text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--email"></span>
-                            <span class="social-list__text">Email</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div> <!-- end social-content -->
-
-    </section> <!-- end s-social -->
-
+    <footer>
+        <p>Парафія на честь Почаївської ікони Божої Матері Київської Митрополії УПЦ Турку і Фінляндії.</p>
+    </footer>
 
     <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-
-        <div class="row footer-top">
-            <div class="column large-4 medium-5 tab-full">
-                <div class="footer-logo">
-                    <a class="site-footer-logo" href="index.html">
-                        <h1><a></a><span>УПЦ в Стокгольмі</span></h1>
-
-                    </a>
-                </div>  <!-- footer-logo -->
-                <p>
-                abcd 
-                </p>
-            </div>
-            <div class="column large-half tab-full">
-                <div class="row">
-                    <div class="column large-7 medium-full">
-                        <h4 class="h6">Our Location</h4>
-                        <p>
-                        Säkkikuja 3 F 25 <br>
-                        20540 TURKU <br>
-                        </p>
-        
-                        <p>
-                        <a href="https://maps.app.goo.gl/LeGePpVYmJXZGdv79" target="_blank" class="btn btn--footer">Get Direction</a>
-                        </p>
-                    </div>
-                    <div class="column large-5 medium-full">
-                        <h4 class="h6">Quick Links</h4>
-                        <ul class="footer-list">
-                            <li><a href="index.html">Головна сторінка</a></li>
-                            <li><a href="about.html">Розклад богослужінь</a></li>
-                            <!-- <li><a href="volunteer.html">Volunteer</a></li> -->
-                            <!-- <li><a href="connect-group.html">Connect Groups</a></li> -->
-                            <li><a href="events.html">Upcoming Events</a></li>
-                            <li><a href="contact.html">Контакти</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end footer-top -->
-
-        <div class="row footer-bottom">
-            <div class="column ss-copyright">
-                <span>© Copyright УПЦ в Стокгольмі 2024</span> 
-                <span>Design by <a href="#">Akewak Jeba</a></span>
-            </div>
-        </div> <!-- footer-bottom -->
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
-            </a>
-        </div> <!-- ss-go-top -->
-
-    </footer> <!-- end s-footer -->
+     end s-footer -->
 
 
     <!-- Java Script
