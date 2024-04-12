@@ -609,14 +609,26 @@ iframe {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   text-align: center; /* Ensures text is centered within each block */
-  height: 100%; /* Full height */
+  height: auto; /* Full height */
   background-color: #ffffff;
 }
 
 .column {
   width: 100%; /* Optional depending on your design needs */
 }
+img.fullscreen {
+  width: 100%; /* Ensures the image takes full width of the body */
+  height: auto; /* Scales the height automatically */
+  display: block; /* Removes any default margin/padding */
+}
 
+.row {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Minimum height to fill the screen */
+  width: 100%; /* Full width */
+}
 footer {
   background-color: #f0f0f0; /* Light grey background */
   color: #333; /* Dark grey text color */
