@@ -610,6 +610,7 @@ iframe {
   align-items: center; /* Center vertically */
   text-align: center; /* Ensures text is centered within each block */
   height: 100%; /* Full height */
+  background-color: #ffffff;
 }
 
 .column {
@@ -3628,7 +3629,7 @@ html.no-csstransitions .hero-content {
 /* ------------------------------------------------------------------- 
  * ## page content 
  * ------------------------------------------------------------------- */
-.page-content {
+/* .page-content {
   padding-top: 12rem;
   padding-bottom: 16rem;
   background-color: #ffffff;
@@ -3636,7 +3637,7 @@ html.no-csstransitions .hero-content {
 
 .page-content .row {
   max-width: 1080px;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## about page 
