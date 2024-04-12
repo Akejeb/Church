@@ -635,6 +635,27 @@ img.fullscreen {
   min-height: 100vh; /* Minimum height to fill the screen */
   width: 100%; /* Full width */
 }
+.site-section {
+  width: 100%; /* Full width of the section */
+  padding: 20px; /* Padding around the content for better spacing */
+  box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+.flexible-iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0; /* Collapse the div to just fit the iframe based on padding-top */
+}
+
+.flexible-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Optional: removes the default frame border */
+}
 footer {
   background-color: #f0f0f0; /* Light grey background */
   color: #333; /* Dark grey text color */
