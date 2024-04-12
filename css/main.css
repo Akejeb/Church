@@ -604,7 +604,7 @@ iframe {
 .column {
   width: 100%;
 }
-.contact-content {
+.page-content {
   display: flex; /* Enables flexbox */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
