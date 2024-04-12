@@ -604,6 +604,17 @@ iframe {
 .column {
   width: 100%;
 }
+.page-content {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Ensures text is centered within each block */
+  height: 100%; /* Full height */
+}
+
+.column {
+  width: 100%; /* Optional depending on your design needs */
+}
 
 footer {
   background-color: #f0f0f0; /* Light grey background */
