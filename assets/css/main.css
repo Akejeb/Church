@@ -55,7 +55,7 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: #807eea;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -1055,7 +1055,14 @@ iframe {
     margin-top: 0;
   }
 }
+.social-icon {
+  margin-right: 10px;  /* Right margin of 10px */
+}
 
+/* Remove margin from the last item to maintain alignment */
+.social-icon:last-child {
+  margin-right: 0;
+}
 /* Stats Section - Home Page
 ------------------------------*/
 .stats {
